@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/878eb39df1.js" crossorigin="anonymous"></script>
+    <title>Personal Portfolio Website</title>
+</head>
+<body>
+
+
+    <!-----------header-------->
+
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href=""> B<span>LESSING.</span></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB Developer</p>
+                <h1>Hi, I'm <span>Blessing</span> <br>James From Nigeria</h1>
+        </div>
+    </div>
+
+
+
+    <!-------about-------->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="images/phone-background.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>A Seasoned Experienced front-end developer skilled in creating responsive, user-friendly web interfaces. Proficient in HTML5, CSS3, JavaScript, and modern frameworks like React. Passionate about crafting clean, efficient code and delivering seamless user experiences across devices. Strong problem-solving abilities and a keen eye for design.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br> Web App Development</li>
+                            <li><span>UI/UX </span> <br>Designing Web/App Interfaces</li>
+                            <li><span>Cybersecurity</span><br> Crash course</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Present</span><br> Freelancer ( Software Development) </li>
+                            <li><span>UI/UX </span> <br> UI/UX Intern at X institute </li>
+                            <li><span>2024 - Present</span><br>Apt learn</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2025</span><br>B.S.C Computer Science</li>
+                            <li><span>2024</span> <br> UI/UX Certificate</li>
+                            <li><span>2022</span><br> Certificate in Cybersecurity</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!----------services------------>
+
+
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1> 
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> Innovative web developer with a passion for crafting seamless user experiences.
+                         Blending cutting-edge technology with creative design to build responsive, 
+                         accessible websites that exceed client expectations. Committed to clean code, performance optimization,
+                         and staying ahead of industry trends. Let's bring your digital vision to life.</p>
+                    <a href="https://github.com/Jahsbaby">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i> 
+                    <h2>UI/UX Design</h2>
+                    <p>Empathetic UI/UX designer dedicated to creating intuitive, 
+                        user-centered digital experiences. 
+                        Balancing aesthetics with functionality to craft visually stunning interfaces that delight users. 
+                        Skilled in user research, wireframing, and prototyping. 
+                        Committed to accessibility and inclusive design principles. 
+                        Transforming complex challenges into elegant, user-friendly solutions.</p>
+                    <a href="">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h2>Cybersecurity</h2>
+                    <p>Innovative cybersecurity specialist with a keen eye for threat detection and a knack for simplifying complex security protocols.
+                         Specializing in creating robust, comprehensive security solutions across diverse IT environments.
+                          Proficient in risk assessment, penetration testing, and iterative security enhancements.
+                           Passionate about crafting cybersecurity measures that are not just effective, 
+                        but seamlessly integrated into organizational workflows.</p>
+                    <a href="#">learn more</a>
+                </div> 
+            </div>
+        </div>
+      </div>
+
+
+
+    <!-------------Portfolio------>
+
+
+      <div id="porfolio">
+           <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/dubai img.png" alt="">
+                    <div class="layer">
+                        <h3>Dubai media PROJECT</h3>
+                        <p>Developed the best one of the largest
+                            diversified entertainment groups in the region committed to solidifying
+                             the Emirate as one of the most sought-after touristic destinations in the world.!</p>
+                        <a href="https://jahsbaby.github.io/media2/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/quay img.png" alt="">
+                    <div class="layer">
+                        <h3>QUAY RESTAURANT PROJECT</h3>
+                        <p>Developed a responsive website for Quay Restaurant using HTML, CSS, and JavaScript. 
+                            Features include an interactive menu,
+                             online reservation system, and dynamic content updates for daily specials.</p>
+                        <a href="https://jahsbaby.github.io/QUAY/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/vephla img.png" alt="">
+                    <div class="layer">
+                        <h3>Vephla PROJECT</h3>
+                        <p>Developed a responsive website for the best EDTech startup 
+                            to unlock the path to success with outstanding mastery programs.</p>
+                        <a href="https://jahsbaby.github.io/vephla-project/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Jahsbaby" class="btn">See more</a>  
+           </div>
+
+      </div>
+
+
+      <!----contact-------->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> blessingjames1047@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+2348185991901</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/mhiz.blesso.3"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/Blessin86996687"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/jahspride1047"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/dev-b-4617b8205"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="/MY RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ blessing made with<i class="fas fa-heart"></i> by dev b.</p>
+        </div>
+    </div>
+
+
+
+
+    
+
+    <script src="/app.js"></script>
+
+</body>
+</html>
