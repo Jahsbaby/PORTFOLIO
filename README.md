@@ -54,8 +54,8 @@ To view my portfolio locally, follow these steps:
 
 You can reach me at:
 - **Email:** blessingjames1047@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/blessing-akanimoh-james)
-- **GitHub:** [Your GitHub Profile](https://github.com/jahsbaby)
+- **LinkedIn:** (https://www.linkedin.com/in/blessing-akanimoh-james)
+- **GitHub**(https://github.com/jahsbaby)
 
 ## License
 
