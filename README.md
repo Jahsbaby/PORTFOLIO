@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-Welcome to my portfolio! This website showcases my skills and projects as a web developer and frontend engineer. Built using only HTML, CSS, and JavaScript, it demonstrates my commitment to creating clean, efficient, and responsive web applications.
+Welcome to my portfolio! This website showcases my skills and projects as a web developer and frontend engineer. Built using only HTML, CSS, and JavaScript, it demonstrates my commitment to creating clean, efficient, engaging and responsive web applications.
 
 ## Table of Contents
 
